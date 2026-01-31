@@ -13,7 +13,7 @@ SteGo is a small CLI programme that allows you to hide/find text in an image.
 
 ## Installation
 
-You can install SteGo on Linux : 
+### Linux : 
 
 ```bash
   git clone https://github.com/ltcwr/SteGo.git
@@ -25,7 +25,7 @@ then build :
   chmod +x ./stego
 ```
 
-Windows : 
+### Windows : 
 ```bash
   Download or clone the project
   Go to the src folder

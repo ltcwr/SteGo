@@ -138,7 +138,7 @@ func decode(input, key string) (string, error) {
 		return byte((r >> 8) & 1)
 	}
 
-	// Lire longueur (32 bits)
+	
 	lenBits := make([]byte, 32)
 	for i := 0; i < 32; i++ {
 		lenBits[i] = getBit(i)
@@ -159,3 +159,4 @@ func decode(input, key string) (string, error) {
 
 	return string(bitsToBytes(msgBits)), nil
 }
+
